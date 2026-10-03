@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Uploaded images (runtime data, not source)
+static/uploads/*
+!static/uploads/.gitkeep
+
+# ML model files (provided separately by Mona)
+ml/*.keras
+ml/*.h5
+ml/class_mapping.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
