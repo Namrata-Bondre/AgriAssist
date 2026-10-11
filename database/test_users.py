@@ -1,4 +1,4 @@
-from users import add_user
+from database.users import add_user
 
 
 def test_add_user():
